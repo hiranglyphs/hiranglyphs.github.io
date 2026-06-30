@@ -1,0 +1,101 @@
+body{}
+.nav{
+    background-color: #6d8f83; padding: 10px 0px 0px 0px; margin-top:0; top:0; width:100%;
+}
+a.nav:link{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.nav:visited{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.nav:hover{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+a.nav:active{
+    padding: 0px 10px; text-decoration:none; color:black
+}
+
+.row{
+    display:flex;background-color: #000000; flex-direction: row;
+}
+@media (max-width: 800px){
+    .row{
+	flex-direction: column;
+    }
+}
+.left-column{
+    flex:30%; padding:10px; height:auto;
+}
+.right-column{
+    flex:70%; padding:10px 60px 0px 60px; height:auto;
+}
+.skill-row{
+    display:flex;background-color: #000000; flex-direction: row;
+}
+@media (max-width: 800px){
+    .row{
+	flex-direction: column;
+    }
+}
+.skill-left-col{
+    flex:30%; padding:0px 0px 0px 0px; height:auto;
+}
+.skill-mid-col{
+    flex:30%; padding:0px 0px 0px 0px; height:auto;
+}
+.skill-right-col{
+    flex:30%; padding:0px 0px 0px 0px; height:auto;
+}
+h1.header{
+    font-family: 'Georgia', serif; font-weight: normal;
+}
+h2.profile{
+    color: #ececec; font-weight: normal;
+}
+h3.profile{
+    color: #cccccc; font-weight: normal;
+
+}
+p.profile{
+    color: #acacac; text-align: justify; font-size: 18px;
+}
+img.profile{
+    padding: 20px 20px 20px 20px; border-radius: 50%
+}
+ul{
+    color: white; padding: 0px 0px 0px 0px
+}
+li{
+    color: #acacac; padding: 0px 0px 0px 0px
+}
+dl{
+    color: white; padding: 0px 0px 0px 0px; font-weight: normal;
+}
+dd{
+    color: #acacac; padding: 0px 0px 0px 0px;font-size: 18px;
+}
+dt{
+    color: #02a186; padding: 0px 0px 0px 0px; text-align: justify; font-size: 18px;
+}
+
+a.list-link:link{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a.list-link:visited{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a.list-link:hover{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+a.list-link:active{
+  padding: 10px 0px 10px 10px; text-decoration:none; color: #02a186;
+}
+div.scroll {
+  background-color: "black";
+  width: 700px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: left;
+  padding: 20px;
+}

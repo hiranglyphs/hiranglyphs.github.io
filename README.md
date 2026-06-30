@@ -1,2 +1,2 @@
-# hiranglyphs.github.io
-Repository for my personal website
+# webdiary.github.io
+This is my personal website

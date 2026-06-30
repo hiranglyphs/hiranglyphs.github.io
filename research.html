@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="theme.js"></script>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/f6b3fe7d92.js" crossorigin="anonymous"></script>
+<script src="include.js"></script>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+<title>
+Hiranmay's WebDiary
+</title>
+</head>
+
+<body>
+<div align="center" class="nav">
+<div w3-include-html="header.html"></div>
+</div>
+<hr style="padding:0px 0px 0px 0px">
+
+<div class="row">
+    <div class="left-column">
+    <div w3-include-html="profile.html"></div>
+    </div>
+
+    <div class="right-column">
+    <div class="scroll">
+    <h2 class="profile section-heading">Research</h2>
+    <p>I am broadly interested in quantum mechanical phenomena in condensed matter systems. Currently I am working on random pi-flux model and investigating the effect of flux disorder on Dirac fermions.</p>
+
+    <h2 class="profile section-heading">Selected Publications</h2>
+    <dl>
+        <dt class="pub-title">Critical States of Fermions with &#8484;<sub>2</sub> Flux Disorder
+            <a href="https://doi.org/10.1103/wsqw-2xh4" class="pub-link" target="_blank">PRL</a>
+            <a href="https://arxiv.org/abs/2505.06689" class="pub-link" target="_blank">ArXiv</a>
+        </dt>
+        <em style="color: var(--text-body);">Hiranmay Das, Naba P. Nayak, Soumya Bera, and Vijay B. Shenoy</em>
+        <dd class="pub-meta">Phys. Rev. Lett. 135, 256305 (2025)</dd>
+        <dd>We investigate the physics of fermions on a square lattice with &pi; flux, subjected to disordered random &#8484;<sub>2</sub> gauge fields that arise from flux defects, i.e., plaquettes with zero flux. At half filling, where the system possesses BDI symmetry, we show that a new class of critical states is realized, with the states at zero energy showing a multifractal character that depends on the flux defect concentration &#119917; and local correlation between defects. For any concentration of flux defects, we find a nonfreezing multifractal spectrum with a tendency toward termination. We characterize this class of critical states by uncovering a robust relation between the conductivity and the Lyapunov exponent, which is satisfied by the states irrespective of the concentration or the local correlations between the flux defects. We demonstrate that renormalization group methods, based on perturbing the Dirac point, fail to capture this new class of critical states. This Letter not only offers new challenges to the theory of disordered systems in the chiral classes, but is also likely to be useful in understanding a variety of problems where fermions interact with discrete gauge fields.</dd>
+    </dl>
+    </div>
+    </div>
+</div>
+<hr style="padding:0px 0px 0px 0px">
+<div align="center" class="footer">
+<div w3-include-html="footer.html"></div>
+</div>
+
+<script>
+includeHTML();
+</script>
+</body>
+</html>
